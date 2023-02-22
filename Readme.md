@@ -1,0 +1,21 @@
+- Quick Notes
+  - React-native-gifted-chat props 
+    - messages (array) displays messages
+    - text (string), the type of input text. Default is undefined
+    - isTyping (bool) => handles the typing indicator state. Default is false
+    - timeFormat (string) => determines time format. Default is LT
+    - dateFormat (string) => determines date format. Default is ll
+    - placeholder (text), => the placeholder for an empty text field. Default is Type a message...
+    - user (object), => the credentials of the user sending the message, i.e., {\_id, name, avatar}
+    - messageIdGenerator (function) =>  generates an id for each new message. Default is UUID V4
+    
+  - Packages used 
+    - @react-navigation/native 
+    - @react-navigation/stack 
+    - react-native-gifted-chat 
+    - react-native-reanimated 
+    - react-native-gesture-handler 
+    - react-native-screens 
+    - react-native-safe-area-context 
+    - @react-native-community/masked-view 
+    - react-native-vector-icons
